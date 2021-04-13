@@ -1,0 +1,54 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.header a{
+    float:right;
+    margin-right: 20px;
+    border: 2px;
+    color: white;
+}
+
+  
+
+.mymargin{
+    border: 2px;
+    margin : 2px;
+    color: black;
+    
+}
+.ma{
+    margin: 20px;
+    
+}
+
+
+.img-fluid{
+    max-width: 50px;
+    height: 25px;
+}
+
+.container {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .row g-3{
+      max-width: 800px;
+      margin: 50px auto;
+      position: relative;
+      padding: 30px;
+  }
+  function phonenumber(inputtxt)
+  {
+    var phoneno = /^\d{10}$/;
+    if(inputtxt.value.match(phoneno))
+    {
+        return true;
+    }
+    else
+    {
+       alert("Not a valid Phone Number");
+       return false;
+    }
+    }
+  
